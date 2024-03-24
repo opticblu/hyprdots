@@ -1,16 +1,12 @@
-daemonize
-show-failed-attempts
-clock
-screenshot
-effect-blur=15x15
-effect-vignette=1:1
-color=1f1d2e80
-font="Inter"
-indicator
+aemonize
+color=000000
+#color=1f1d2e80
+font="Hack"
+indicator-caps-lock
 indicator-radius=200
 indicator-thickness=20
-line-color=1f1d2e
-ring-color=191724
+line-color=FFBF00
+ring-color=FFBF00
 inside-color=1f1d2e
 key-hl-color=eb6f92
 separator-color=00000000
@@ -25,14 +21,7 @@ text-wrong-color=31748f
 inside-wrong-color=1f1d2e
 inside-clear-color=1f1d2e
 text-clear-color=e0def4
-ring-clear-color=9ccfd8
-line-clear-color=1f1d2e
-line-wrong-color=1f1d2e
-bs-hl-color=31748f
-grace=2
-grace-no-mouse
-grace-no-touch
-datestr=%a, %B %e
-timestr=%I:%M %p
-fade-in=0.3
-ignore-empty-password
+ring-clear-color=FFBF00
+line-clear-color=FFBF00
+line-wrong-color=FFBF00
+command=mpvpaper -o "--loop" '*' /home/philip/Downloads/earthspin.mp4 >/dev/null 2>/dev/null
